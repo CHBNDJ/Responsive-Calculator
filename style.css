@@ -14,10 +14,8 @@ html,body {
 
 .splitter {
     position: absolute;
-    top: 163px;
+    top: 158px;
     left: 677px;
-    width: 87px;
-    height: 53px;
     color: #3D6666;
     letter-spacing: .4em;
     font-size: 24px;
