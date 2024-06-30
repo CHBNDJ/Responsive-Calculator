@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/cfd5fcf59b.js" crossorigin="anonymous"></script>
+  <link href="./fontawesome-free-6.4.0-web/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Tip calculator app</title>
+
+
+</head>
+<body>
+  <h1 class="splitter">SPLI<br>TTER</h1>
+  <main class="container">
+    <div class="box-content">
+      <form id="bill-form">
+         <label for="bill">Bill</label>
+         <input type="number" name="number" class="bill-input" id="bill-input" placeholder="0">
+         <i class="fa-solid fa-dollar-sign"></i>
+      </form>
+        <form id="select-tip">
+          <label for="select-tip">Select Tip %</label>
+          <div class="select-tip-content">
+            <div class="select-tip-item" id="select-tip-item-5">5%</div>
+            <div class="select-tip-item" id="select-tip-item-10">10%</div>
+            <div class="select-tip-item" id="select-tip-item-15">15%</div>
+            <div class="select-tip-item" id="select-tip-item-25">25%</div>
+            <div class="select-tip-item" id="select-tip-item-50">50%</div>
+            <input type="number" name="number" class="select-tip-item" id="select-tip-item-custom" placeholder="Custom">
+          </div>
+      </form>
+      <form id="number-of-people">
+        <label for="number-of-people">Number of People</label>
+        <span id="number-of-people-error"></span>
+        <input type="number" name="number" class="number-of-people-input" id="number-of-people-input" placeholder="0">
+        <i class="fa-solid fa-user"></i>
+      </form>
+    </div>
+
+    <div class="amount-content">
+      <div class="tip-amount">
+        <div class="tip-amount-person">
+          <p class="tip-amount-style">Tip Amount</p>
+          <p class="per-person-style">/ person</p>
+        </div>
+        <div class="total-tip" id="total-tip">$0.00</div>
+      </div>
+      <div class="total-amount">
+        <div class="total-amount-person">
+          <p class="total-amount-style">Total</p>
+          <p class="per-person-style">/ person</p>
+        </div>
+        <div class="total" id="total">$0.00</div>
+      </div>
+
+      <div class="reset">
+        <button class="reset-button" id="reset-button" ><p>RESET</p></button>
+      </div>
+
+  
+    </div>
+
+
+    
+  </main>
+  
+
+
+  
+ 
+</body>
+</html>
