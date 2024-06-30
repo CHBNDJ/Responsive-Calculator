@@ -20,7 +20,7 @@ html,body {
     height: 53px;
     color: #3D6666;
     letter-spacing: .4em;
-    font-size: 12px;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -230,7 +230,7 @@ input[type=number]::-webkit-inner-spin-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2em 3em;
+    margin: 3em;
 }
 
 .total-tip, .total {
